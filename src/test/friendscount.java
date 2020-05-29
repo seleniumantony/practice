@@ -16,10 +16,10 @@ for (int i = 0; i < arrayOfNames.length; i++) {
 System.out.print("Enter the name of friend " + (i+1) + " : ");
         arrayOfNames[i] = scan.nextLine();
 }
-   
+ 
 //Now show your friend's name one by one
 for (int j = 0; j < arrayOfNames.length; j++) {
-System.out.print("My friend " + (j+1) + " : ");
+//System.out.print("My friend " + (j+1) + " : ");
         System.out.print(arrayOfNames[j] + "\n");
 }
  

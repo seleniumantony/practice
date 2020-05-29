@@ -9,7 +9,7 @@ import java.util.Properties;
 public class property2{
     public static String speak()
     {
-
+// no need to use object as we are using method with static key word
     File f=new File("D:\\Antony\\Appium\\Eclipse Appium storage\\JMJ\\anton.property");
     FileInputStream fis = null;
     try {
